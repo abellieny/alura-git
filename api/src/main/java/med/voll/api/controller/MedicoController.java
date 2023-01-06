@@ -52,7 +52,7 @@ public class MedicoController {
     public void atualizar(@RequestBody @Valid DadosAtualizacaoMedico dados) {
         var medico = repository.getReferenceById(dados.id());
         medico.atualizarInformacoes(dados);
-
+//testando o gti
     }
 
 /*    @DeleteMapping("/{id}")
